@@ -15,6 +15,9 @@
 3. zipファイルを解凍
 4. `contour-width-adjust.py`を実行
 
+## ソースコードの説明
+[ソースコードの説明](https://note.com/fair_dunlin665/n/n1b3d6bcb3eb8)
+
 ## ディレクトリ構成
 ```
 contour-width-adjustment/
