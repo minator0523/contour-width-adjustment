@@ -9,10 +9,11 @@
 ## 完成天気図
 ![完成天気図](contour-width-adjust_slp.png)
 
-## ソースコードとGPVデータのダウンロード方法（Githubに馴染みのない人向け）
+## 諸々のダウンロード方法とソースコードの実行方法（Githubに馴染みのない人向け）
 1. 緑の`code`ボタンをクリック
 2. Download ZIPボタンをクリックし，zipファイルをダウンロード
 3. zipファイルを解凍
+4. `contour-width-adjust.py`を実行
 
 ## ディレクトリ構成
 ```
