@@ -1,3 +1,11 @@
-# 天気図のクオリティを上げる方法（海面更生気圧を4hPaおきに細線，20hPaごとに太線に太線にする）
+# 天気図の等圧線を4hPaごとに細線，20hPaごとに太線で描く
 
-ブログで紹介したソースコードとGPVデータをダウンロードできます．
+## ディレクトリ構成
+```
+contour-width-adjustment/
+├── README.md
+├── contour-width-adjust.py # 作図するためのスクリプト
+├── contour-width-adjust_slp.png
+└── data
+    └── GSM_jp-surf_20241221.nc # GPVデータ (NetCDF形式)
+```
