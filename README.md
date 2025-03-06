@@ -1,5 +1,8 @@
 # 天気図の等圧線を4hPaごとに細線，20hPaごとに太線で描く（Python使用）
 
+## 完成天気図
+![完成天気図](contour-width-adjust_slp.png)
+
 ## ソースコードとGPVデータのダウンロード方法（Githubに馴染みのない人向け）
 1. 緑の`code`ボタンをクリック
 2. Download ZIPボタンをクリックし，zipファイルをダウンロード
