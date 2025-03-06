@@ -9,6 +9,7 @@ import matplotlib.ticker as mticker
 import matplotlib # wsl2上で実行する場合のおまじない
 matplotlib.use('Agg') # wsl2上で実行する場合のおまじない
 
+# 等値線の太さを調整するためのデータを用意する関数
 def contour_lines(data, interval, linewidth_thin, linewidth_thick):
     min_value = np.floor(np.min(data)/interval)
     max_value = np.ceil(np.max(data)/interval)
@@ -19,6 +20,7 @@ def contour_lines(data, interval, linewidth_thin, linewidth_thick):
     linewidths = [ linewidth_thick if value else linewidth_thin  for value in result ]
     index_label = np.where(result)[0][0]
     return lines_value, linewidths, index_label
+    
 
 # 日時を指定
 yyyy = 2024 # 年
