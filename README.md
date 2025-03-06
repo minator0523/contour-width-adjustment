@@ -14,7 +14,10 @@
 
 [生存研データベースのNCEP/NCAR再解析](https://database.rish.kyoto-u.ac.jp/arch/ncep/)
 
-[実際に使用したデータ](https://database.rish.kyoto-u.ac.jp/arch/ncep/data/ncep.reanalysis2/surface/mslp.2024.nc)
+[実際に使用するデータ](https://database.rish.kyoto-u.ac.jp/arch/ncep/data/ncep.reanalysis2/surface/mslp.2024.nc)
+
+`mslp.2004.nc`を`contour-width-adjust.py`と同一ディレクトリにダウンロードし，
+`contour-width-adjust.py`を実行してください．
 
 ## ディレクトリ構成
 ```
