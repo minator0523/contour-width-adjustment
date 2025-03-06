@@ -11,6 +11,8 @@
 
 ## データの出典
 京都大学生存圏研究所の生存圏データベースのNCEP/NCAR再解析データを使用しました．
+[生存研データベースのNCEP/NCAR再解析](https://database.rish.kyoto-u.ac.jp/arch/ncep/)
+[実際に使用したデータ](https://database.rish.kyoto-u.ac.jp/arch/ncep/data/ncep.reanalysis2/surface/mslp.2024.nc)
 
 ## ディレクトリ構成
 ```
