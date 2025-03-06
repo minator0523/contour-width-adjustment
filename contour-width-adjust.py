@@ -48,8 +48,8 @@ fig, ax = plt.subplots(
 ax.text(0.0, 1.05, f'SLP, {yyyy:04d}/{mm:02d}/{dd:02d} {hh:02d}:00UTC ANL', transform=ax.transAxes, size=25, weight='bold') # タイトル
 # 地図を作成
 gl = ax.gridlines(crs=ccrs.PlateCarree(), draw_labels=True, linewidth=1, linestyle=':', color='k', alpha=0.8) # 経度・緯度線を描写:
-gl.xlocator = mticker.FixedLocator(np.arange(120.0, 150.0, 20.0)) # 経度線の間隔を設定
-gl.ylocator = mticker.FixedLocator(np.arange(20.0, 50.0, 20.0)) # 緯度線の間隔設定
+gl.xlocator = mticker.FixedLocator(np.arange(100.0, 160.0, 20.0)) # 経度線の間隔を設定
+gl.ylocator = mticker.FixedLocator(np.arange(10.0, 50.0, 20.0)) # 緯度線の間隔設定
 ax.coastlines(color='black', linestyle='-', linewidth=0.75) # 海岸線を描画
 ax.set_extent([100.0, 160.0, 10.0, 50.0], ccrs.PlateCarree()) # 作図範囲の設定
 
