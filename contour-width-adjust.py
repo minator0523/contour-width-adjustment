@@ -31,7 +31,7 @@ lat_center = 35.0 # 中心緯度
 lon_center = 135.0 # 中心経度
 
 ## GSMデータ（gribをNetCDFに変換したもの）を読み込む
-ifile = f'./data/mslp.2024.nc'
+ifile = f'./mslp.2024.nc'
 ds_surf = xr.open_dataset(ifile)
 print(f"ifile: {ifile}")
 slp = ds_surf['mslp'].sel(time=f"{yyyy:04d}-{mm:02d}-{dd:02d}T{hh:02d}:00").values / 100.0 # 海面校正気圧
